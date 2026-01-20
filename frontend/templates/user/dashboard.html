@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kronnos - Painel</title>
+  <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <span>Olá, <strong>Usuário</strong></span>
+
+      <a href=" ../index.html">Sair</a>
+      <a href="../user/perfil.html">Meu Perfil</a>
+      <a href="../user/historico.html">Histórico</a>
+    </nav>
+  </header>
+
+  <main>
+    <section style="text-align: center; margin-top: 50px;">
+      <h2>Registrar Ponto</h2>
+
+      <p>Data: <span id="current_date">--/--/----</span></p>
+
+      <form action="/bater_ponto" method="post">
+        <button type="submit" style="padding: 20px 40px; font-size: 18px; cursor: pointer;">🕒 BATER PONTO
+
+        </button>
+      </form>
+    </section>
+
+    <section style="margin-top: 50px;">
+      <h3>Seu último registro:</h3>
+      <p>Você ainda não registrou ponto hoje.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Kronnos - Controle de Ponto</p>
+  </footer>
+</body>
+
+</html>

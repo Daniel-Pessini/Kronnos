@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kronnos - Cadastro</title>
+  <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../index.html">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Crie sua conta</h2>
+    <form action="" method="post">
+      <div>
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div>
+        <label for="full_name">Nome Completo:</label>
+        <input type="text" id="full_name" name="full_name" required>
+      </div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="confirm_email">Confirme o Email:</label>
+        <input type="email" id="confirm_email" name="confirm_email" required>
+        <div>
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+          <label for="confirm_password">Confirme a Senha:</label>
+          <input type="password" id="confirm_password" name="confirm_password" required>
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <p>Já tem uma conta? <a href="login.html">Faça login aqui</a></p>
+  </main>
+</body>
