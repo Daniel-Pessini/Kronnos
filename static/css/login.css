@@ -76,3 +76,11 @@
   grid-template-columns: 1fr 1fr;
   gap: 5px;
 }
+
+/* --- Footer --- */
+.index-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

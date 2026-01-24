@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kronnos - Sign Up Page</title>
+    <title>Kronnos - Cadastro</title>
     <link rel="stylesheet" href="../static/css/global.css" />
     <link rel="stylesheet" href="../static/css/login.css" />
   </head>
@@ -16,7 +16,7 @@
         <nav class="navbar">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="about.html">Sobre</a></li>
             <li><a href="#">Contatos</a></li>
             <li><a href="login.html">Log In</a></li>
           </ul>
@@ -26,76 +26,81 @@
         </div>
       </div>
     </header>
-  </body>
-  <main>
-    <section class="login">
-      <div class="login-box">
-        <form method="post">
-          <div class="input-group">
-            <input
-              required
-              type="text"
-              name="nome"
-              id="nome"
-              class="nome"
-              placeholder="Nome Completo"
-            />
-            <input
-              required
-              type="text"
-              name="username"
-              id="username"
-              class="username"
-              placeholder="Apelido"
-            />
-          </div>
-          <div class="input-group">
-            <input
-              required
-              type="email"
-              name="email"
-              id="email"
-              class="email"
-              placeholder="Email"
-            />
-            <input
-              required
-              type="email"
-              name="email_confirm"
-              id="email_confirm"
-              class="email_confirm"
-              placeholder="Confirme seu Email"
-            />
-          </div>
-          <div class="input-group">
-            <input
-              required
-              type="password"
-              name="password"
-              id="password"
-              class="password"
-              placeholder="Senha"
-            />
-            <input
-              required
-              type="password"
-              name="password_confirm"
-              id="password_confirm"
-              class="password_confirm"
-              placeholder="Confirme sua Senha"
-            />
-          </div>
-          <button
-            type="submit"
-            class="login-btn"
-            name="signup-btn"
-            id="signup-btn"
-          >
-            Cadastrar-se
-          </button>
-        </form>
-        Já tem uma conta?<a href="./login.html">Faça login</a>
+    <main>
+      <section class="login">
+        <div class="login-box">
+          <form method="post">
+            <div class="input-group">
+              <input
+                required
+                type="text"
+                name="nome"
+                id="nome"
+                class="nome"
+                placeholder="Nome Completo"
+              />
+              <input
+                required
+                type="text"
+                name="username"
+                id="username"
+                class="username"
+                placeholder="Apelido"
+              />
+            </div>
+            <div class="input-group">
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                class="email"
+                placeholder="Email"
+              />
+              <input
+                required
+                type="email"
+                name="email_confirm"
+                id="email_confirm"
+                class="email_confirm"
+                placeholder="Confirme seu Email"
+              />
+            </div>
+            <div class="input-group">
+              <input
+                required
+                type="password"
+                name="password"
+                id="password"
+                class="password"
+                placeholder="Senha"
+              />
+              <input
+                required
+                type="password"
+                name="password_confirm"
+                id="password_confirm"
+                class="password_confirm"
+                placeholder="Confirme sua Senha"
+              />
+            </div>
+            <button
+              type="submit"
+              class="login-btn"
+              name="signup-btn"
+              id="signup-btn"
+            >
+              Cadastrar-se
+            </button>
+          </form>
+          Já tem uma conta?<a href="./login.html">Faça login</a>
+        </div>
+      </section>
+    </main>
+    <footer class="index-footer">
+      <div class="container">
+        <p>&copy; 2024 Kronnos - Todos os direitos reservados</p>
       </div>
-    </section>
-  </main>
+    </footer>
+  </body>
 </html>

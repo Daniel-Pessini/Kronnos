@@ -1,3 +1,4 @@
+// --- carrossel animado --- //
 const slides = document.querySelectorAll('.hero-carousel img');
 
 let currentSlide = 0;
