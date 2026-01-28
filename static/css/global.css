@@ -1,25 +1,8 @@
-/* --- RESET --- */
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* --- ESTILOS GERAIS --- */
-body {
-  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f7f6;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
